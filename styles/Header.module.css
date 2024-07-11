@@ -1,0 +1,28 @@
+.header {
+  background-color: #D6EFD8; 
+  color: #1A5319;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+  }
+}
+
+
+.header:hover {
+  transform: translateY(-5px); /* Mueve la sección hacia arriba al pasar el mouse */
+}

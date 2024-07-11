@@ -1,0 +1,9 @@
+.footer {
+    background-color: #0c2e20; /* Azul oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    clear: both;
+  }
